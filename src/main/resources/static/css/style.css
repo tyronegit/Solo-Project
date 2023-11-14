@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+.container {
+	margin: 65px;
+	padding: 25px;
+	font-family: sans-serif;
+	background-color: lightskyblue;
+	background-image: url('book3a.png');
+	border-color:blue;
+	border-style: solid;
+}
+
+.txr {
+	/*text-align: start;
+	display: flex;*/
+	margin: 65px;
+	margin-bottom: -60px;
+	/*align-items: flex-start;
+	text-align: right;*/
+}
+
+.error {
+	color: #F9214B;
+	font-weight: bold;
+}
+
+/* styles.css */
+.styled-table {
+    border-collapse: collapse; /* Remove spacing between table cells */
+    width: 50%; /* Set the table width */
+    margin: 20px auto; /* Center the table on the page */
+}
+
+.styled-table th, .styled-table td {
+    border: 2px solid black; /* Set a solid border for header cells and data cells */
+    padding: 10px; /* Add padding to cells */
+    text-align: center; /* Center-align cell content */
+}
+
+/*.styled-table thead {
+    background-color:white;  Set background color for table header 
+    color: white;  Set text color for table header 
+}*/
+
+.styled-input {
+	background-color:lightgreen;
+	width:177px;
+}
+
+.text-input {
+	background-color:yellow;
+}
+
+label {
+        display: block; /* Display labels as block elements to stack them vertically */
+        margin-bottom: 5px; /* Add some spacing between labels and inputs */
+       
+}
+
+.formrow-cont {
+		border-color:blue;
+		width:180px;
+		height:290px;
+		border-style: solid;
+}
+
+.formrow-cont2 {
+		border-color:blue;
+		width:180px;
+		height:175px;
+		border-style: solid;
+}
+
+.tarea-cont {
+		width:170px;		
+		border-style: black solid 1px;
+		border-color: black solid 1px;
+}
+
+.formrow-cont3 {
+		border-color:blue;
+		width:180px;
+		height:190px;
+		border-style: solid;
+}
+
