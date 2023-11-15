@@ -1,4 +1,4 @@
-package com.tyrone.bookclub.controllers;
+ package com.tyrone.bookclub.controllers;
 
 import java.util.Date;
 
@@ -111,7 +111,7 @@ public class BookController {
     	if (result.hasErrors()) {
     		return "addIndex.jsp";
     	}
-    	
+    
     	// Set the current date and time when creating the book
         book.setCreatedDate(new Date());
         book.setLastUpdated(new Date());

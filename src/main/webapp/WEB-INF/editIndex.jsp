@@ -42,7 +42,8 @@
 				<div class="form-row">
 					<form:errors path="description" class="error" />
 					<form:label for="description" path="description">Description:</form:label>
-					<form:textarea path="description" class="form-control text-input tarea-cont" />
+					<form:textarea path="description"
+						class="form-control text-input tarea-cont" />
 				</div>
 
 				<div class="form-row">
@@ -52,12 +53,12 @@
 				</div>
 
 				<div class="form-row ">
-					<p><input type="submit" value="Edit"
-						class="btn-primary styled-input" /></p>
+					<p>
+						<input type="submit" value="Edit" class="btn-primary styled-input" />
+					</p>
 				</div>
 
 			</form:form>
-
 
 		</div>
 

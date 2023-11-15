@@ -131,8 +131,6 @@ public class Book {
 
 	public void setLastUpdated(Date lastUpdated) {
 		this.lastUpdated = lastUpdated;
-	}
-
-	
+	}	
     
 }

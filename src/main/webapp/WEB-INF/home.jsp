@@ -66,11 +66,14 @@
 						
 					</tr>
 					
+					<c:set var="userName" value="${user.firstName}" />
 					<script>
+					    var userName = '<c:out value="${userName}" />';
+					    
 					    function showAlert() {
-					        alert('This book has already been favored by the user.');
+					        alert('This book has already been favored ' + userName + '.');
 					    }
-					</script>									
+					</script>							
 			</c:forEach>
 
 		</table>
