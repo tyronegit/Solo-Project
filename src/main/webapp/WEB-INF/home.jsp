@@ -71,7 +71,7 @@
 					    var userName = '<c:out value="${userName}" />';
 					    
 					    function showAlert() {
-					        alert('This book has already been favored ' + userName + '.');
+					        alert('This book is already favored ' + userName + '.');
 					    }
 					</script>							
 			</c:forEach>
